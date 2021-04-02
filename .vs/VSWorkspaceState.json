@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NodeJS"
+    "\\NodeJS",
+    "\\NodeJS\\amplifyapp"
   ],
-  "SelectedNode": "\\NodeJS\\package.json",
+  "SelectedNode": "\\NodeJS\\amplifyapp",
   "PreviewInSolutionExplorer": false
 }
