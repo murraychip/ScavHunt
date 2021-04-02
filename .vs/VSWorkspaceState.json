@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NodeJS",
-    "\\NodeJS\\amplifyapp"
+    "\\amplifyapp",
+    "\\amplify\\backend\\api\\ScavHunt",
+    "\\amplify\\backend\\api\\ScavHunt\\stacks",
+    "\\amplify\\backend\\auth\\ScavHunt",
+    "\\obj\\Debug",
+    "\\src\\models"
   ],
-  "SelectedNode": "\\NodeJS\\amplifyapp",
+  "SelectedNode": "\\package (2).json",
   "PreviewInSolutionExplorer": false
 }
