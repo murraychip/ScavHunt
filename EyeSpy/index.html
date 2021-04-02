@@ -1,0 +1,572 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Murray's Eye Spy</title>
+    <meta name="description" content="Murray's Eye Spy'">
+    <meta name="author" content="Chip Murray">
+
+    <link rel="stylesheet" href="style.css?v=1.0">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            addPage({
+                title: "I Spy Legos",
+                imgSrc: "File1.jpg", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a shark,",
+                        coords: [[859, 728, 102]],
+                        inline: true
+                    },
+                    {
+                        label: "3 dogs,",
+                        coords: [[1198, 875, 62], [1292, 206, 66], [570, 345, 74]]
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a silver sword.",
+                        coords: [[1065, 581, 73]],
+                        inline:true
+                    },
+                    {
+                        label: "2 red phones",
+                        coords: [[1076, 821, 42], [406, 414, 37]],
+                        newSentence: true
+                    },
+                    {
+                        label: "a bone",
+                        coords: [[991, 275, 30]]
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "an orange skateboard.",
+                        coords: [[1178, 490, 47]],
+                        inline:true
+                    }
+                ]
+            });
+            addPage({
+                title: "I Spy Baby Toys",
+                imgSrc: "Page2.jpg", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a toothbrush,",
+                        coords: [[798,737,50]],
+                        inline: true
+                    },
+                    {
+                        label: "2 purple balls,",
+                        coords: [[1013,881,20], [945,863,22]]
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a yellow duck.",
+                        coords: [[252,836,76]],
+                        inline:true
+                    },
+                    {
+                        label: "A big, soft lion",
+                        coords: [[410,550,200]],
+                        newSentence: true
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a construction truck.",
+                        coords: [[1021,1027,137]],
+                        inline:true
+                    }
+                ]
+            }); //ends page2 
+            addPage({
+                title: "I Spy Toys #1",
+                imgSrc: "Page3.jpg", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a car,",
+                        coords: [[389, 199, 75]],
+                        inline: true
+                    },
+                    {
+                        label: " and ", 
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a star",
+                        inline:true,
+                        coords: [[315, 289, 27]]
+                    },
+                    {
+                        label: "both the same color.",
+                        coords: []
+                    },
+                    {
+                        label: "<br><br>Bonus:",
+                        coords: [],
+                        newSentence: true
+                    },
+                    {
+                        label: "A phone,",
+                        coords: [[98, 184, 53]],
+                        newSentence: true
+                    },
+                    {
+                        label: "two owls,",
+                        coords: [[432, 133, 42], [383,125,18]], 
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "two cats.",
+                        coords: [[407,95,22], [289,132,30] ],
+                        inline:true
+                    }
+                ]
+            }); //ends page3   
+            addPage({
+                title: "I Spy Toys #2",
+                imgSrc: "Page4.jpg", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "an etch-a-sketch",
+                        coords: [[208, 211, 76]],
+                        inline: true
+                    },
+                    {
+                        label: "a tablet,",
+                        coords: [[207, 214, 107]]
+                    },
+                    {
+                        label: "a lantern,",
+                        coords: [[70,373,98]]
+                    },
+                    {
+                        label: "a walkie-talkie,",
+                        coords: [[317,353,47]] 
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true,
+                        padleft: true,
+                    },
+                    {
+                        label: "a fitbit.",
+                        coords: [[314, 354, 76]],
+                        inline: true
+                    },
+                    {
+                        label: "I spy two words that rhyme:",
+                        coords: [],
+                        newSentence: true
+                    },
+                    {
+                        label: "float",
+                        coords: [[127, 315, 54]],
+                        inline: true,
+                        padleft: true
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline:true
+                    },
+                    {
+                        label: "boat",
+                        coords: [[196,428,51]],
+                        inline: true
+                    }
+                ]
+            }); //ends page4 
+            addPage({
+                title: "I Spy Dolls",
+                imgSrc: "Dolls.jpg",
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a crown,",
+                        coords: [[398, 448, 47]],
+                        inline: true
+                    },
+                    {
+                        label: "a bunny,",
+                        coords: [[314, 485, 132]]
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a person that works in space.",
+                        coords: [[947, 617, 101]],
+                        inline:true
+                    },
+                    {
+                        label: "A mermaid with pink wings,",
+                        coords: [[783, 591, 157]],
+                        newSentence: true
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a girl with a heart on her face.",
+                        coords: [[945, 339, 112]],
+                        inline:true
+                    },
+                ]
+            }); //ends page5 
+            addPage({
+                title: "I Spy a Messy Yard",
+                imgSrc: "SpyOutside.png",
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a compost bin,",
+                        coords: [[72, 497, 54]],
+                        inline: true
+                    },
+                    {
+                        label: "a glove,",
+                        coords: [[835, 528, 49]]
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a bat.",
+                        inline: true,
+                        coords: [[922, 574, 95]]
+                    },
+                    {
+                        label: "A boy",
+                        coords: [[1400, 477, 66]],
+                        newSentence: true
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a hat.",
+                        inline: true,
+                        coords: [[1021, 118, 78]]
+                    } 
+                ]
+            }); //ends page6  
+            addPage({
+                title: "I Spy Cars",
+                imgSrc: "Cars.jpg",
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a helicopter,",
+                        coords: [[421, 321, 67]],
+                        inline: true
+                    },
+                    {
+                        label: "a police car,",
+                        coords: [[64, 369, 80]]
+                    },
+                    {
+                        label: " a snow plow ",
+                        coords: [[382, 189, 79]]
+                    },
+                    {
+                        label: "a bulldozer,",
+                        coords: [[304, 357, 56]]
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a monster truck.",
+                        coords: [[196,258,75]],
+                        inline: true
+                    },
+                    {
+                        label: " I spy two words that rhyme: ",
+                        newSentence: true,
+                        coords: []
+                    },
+                    {
+                        label: "man",
+                        inline: true,
+                        coords: [[382, 89, 33]]
+                    },
+                    {
+                        label: " and ",
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "van",
+                        inline: true,
+                        coords: [[58, 93, 73]]
+                    }
+                ]
+            }); //ends page7 
+            addPage({
+                title: "I Spy Animals",
+                imgSrc: "StuffedAnimals.jpg",
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a rooster,",
+                        coords: [[1256, 437, 56]],
+                        inline: true
+                    },
+                    {
+                        label: "a panda,",
+                        coords: [[1251, 195, 90]]
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a bumble bee.",
+                        coords: [[1399, 965, 94]],
+                        inline: true
+                    },
+                    {
+                        label: "A dog with long ears", 
+                        newSentence: true,
+                        coords: [[634,416,102]]
+                    },
+                    {
+                        label: " and ",
+                        inline: true,
+                        coords: []
+                    },
+                    {
+                        label: "a goat in a tree.",
+                        coords: [[820,263,69]],
+                        inline: true
+                    } 
+                ]
+            }); //ends page7 
+            addPage({
+                title: "I Spy Nature",
+                imgSrc: "Nature.png", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a fern,",
+                        coords: [[259, 73, 94]],
+                        inline: true
+                    },
+                    {
+                        label: "lichen,",
+                        coords: [[380, 63, 59]]
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "moss,",
+                        coords: [[284, 306, 42]],
+                        inline: true
+                    },
+                    {
+                        label: "A piece of bark,",
+                        newSentence: true,
+                        coords: [[27, 212, 74]]
+                    },
+                    {
+                        label: " a bone, ",
+                        coords: [[450, 258, 60]]
+                    },
+                    {
+                        label: " and ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a buckeye.",
+                        coords: [[392, 144, 23]],
+                        inline: true
+                    },
+                    {
+                        label: "In a tree.",
+                        coords: [],
+                        newSentence: true
+                    },
+                    {
+                        label: "We spied all of these!",
+                        coords: []
+                    }
+                ]
+            }); //ends page8 
+
+
+            addPage({
+                title: "I Spy Nature",
+                imgSrc: "SpyPile.png", 
+                items: [
+                    {
+                        label: "I spy ",
+                        coords: [],
+                        inline: true
+                    },
+                    {
+                        label: "a pillow with stripes, <br>",
+                        coords: [[322, 191, 83]],
+                        inline: true
+                    },
+                    {
+                        label: " and ",
+                        padleft: true,
+                        inline: true
+                    },
+                    {
+                        label: "a hidden book.",
+                        coords: [[359, 436, 37]],
+                        inline: true
+                    },
+                    {
+                        label: "A clip,",
+                        coords: [[231, 357, 25]],
+                        newSentence: true
+                    },
+                    {
+                        label: "a night light,",
+                        coords: [[358, 378, 25]],
+                    },
+                    {
+                        label: " and ",
+                        inline: true
+                    },
+                    {
+                        label: "a breakfast nook.",
+                        coords: [[30, 269, 70]],
+                        inline: true
+                    },
+                ]
+            }); //ends page9
+             
+            loadPage(0); 
+        }); //ends init functions
+             
+    </script>
+
+    
+    <div>
+        <div class="pictureColumn">
+            <canvas id="myCanvas"></canvas>
+            <img id="pictureHolder" usemap="#workmap"  />
+            <map name="workmap">  
+            </map>
+         </div>
+        <div class="textColumn" >
+            <div id="topBar">
+                <h3 id="pageName"></h3>
+            </div>
+
+            <div id="btnHolder" >
+                <button id="leftBtn" onclick="leftClick();"> &lt; &lt; </button>
+                <button id="hintBtn" onclick="hintClick();"> Show Hints </button>
+                <button id="magnifyBtn" onclick="showMagnifySelect();"> Magnify 1X
+                </button>
+                <ol id="magnificationSelector">
+                    <li data-value="1" class="selected">Off</li>
+                    <li data-value="2">2X</li>
+                    <li data-value="3">3X</li>
+                    <li data-value="4">4X</li>
+                    <li data-value="5">5X</li> 
+                </ol>
+                <button id="rightBtn" onclick="rightClick();"> &gt; &gt; </button>
+                <!-- <button id="resetBtn" onclick="resetClick();" style="margin-left:1em;"> Reset </button> -->
+            </div>
+            <div id="victoryMessage"></div>
+            <div id="textHolder"></div>  
+        </div>
+    </div>   
+</body>
+</html>

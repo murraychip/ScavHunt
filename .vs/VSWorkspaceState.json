@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NodeJS"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\NodeJS\\package.json",
   "PreviewInSolutionExplorer": false
 }
