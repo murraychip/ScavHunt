@@ -6,7 +6,7 @@ var yRatio = .5;
 var allPages = [];
 var currentPageIndex = 0;
 var showHint = false;
-var baseImgAddress = "Game1/";
+var baseImgAddress = "Pictures/";
 
 function addPage(settings) { 
     allPages.push(settings); 
